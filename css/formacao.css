@@ -117,6 +117,8 @@
 }
 
 .cursos .andamento {
+  position: relative;
+  top: -20px;
   font-size: 0.875rem;
   color: #000000;
   background: linear-gradient(#8cfff8, #4fd7ea);
