@@ -54,4 +54,7 @@
   .introducao img {
     display: none;
   }
+  .introducao p {
+    font-size: 1.25rem;
+  }
 }

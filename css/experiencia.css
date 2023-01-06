@@ -82,9 +82,7 @@
     grid-row: 1;
     grid-column: 1;
   }
-  .experiencia-texto {
-    font-size: 1.25rem;
-  }
+  
   .estudo-ano {
     position: initial;
     grid-area: 1 / 2;

@@ -118,7 +118,7 @@
 
 .cursos .andamento {
   position: relative;
-  top: -20px;
+  top: -5px;
   font-size: 0.875rem;
   color: #000000;
   background: linear-gradient(#8cfff8, #4fd7ea);
@@ -144,11 +144,20 @@
   .formacao .subtitulo {
     color: #ffffff;
   }
-  .formacao .texto {
-    font-size: 1.25rem;
-  }
+
   .formacao-extra h3::before {
     position: initial;
     margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 450px) {
+  .formacao .container::after {
+    width: 30px;
+    height: 10px;
+    bottom: -5px;
+  }
+  .formacao-extra li {
+    font-size: 0.875rem;
   }
 }
