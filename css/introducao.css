@@ -26,6 +26,13 @@
   color: #525252;
 }
 
+.introducao-subtitulo {
+  display: grid;
+  grid-template-columns: auto auto 1fr;
+  align-items: center;
+  gap: 10px;
+}
+
 @media (max-width: 1000px) {
   .introducao h1 {
     font-size: 3rem;

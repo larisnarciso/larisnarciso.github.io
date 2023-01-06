@@ -92,6 +92,11 @@
   position: relative;
 }
 
+.formacao-extra a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
 .formacao-extra h3::before {
   content: "";
   display: block;
