@@ -49,6 +49,15 @@
   grid-column: 1/-1;
 }
 
+.estudo-titulo a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.estudo-titulo a:hover {
+  color: #525252;
+}
+
 .estudo-texto {
   font-size: 0.875rem;
   line-height: 1.4;
@@ -82,7 +91,7 @@
     grid-row: 1;
     grid-column: 1;
   }
-  
+
   .estudo-ano {
     position: initial;
     grid-area: 1 / 2;
